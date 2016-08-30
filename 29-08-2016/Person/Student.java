@@ -29,6 +29,6 @@ public class Student extends Person
    this.fee=fee;
    }  
    public String toString(){
-      return "Student[name="+getName()+", address="+getAddress()+"],program="+program+",year="+year+",fee="+fee+"]";
+      return "Student[Person[name="+getName()+", address="+getAddress()+"],program="+program+",year="+year+",fee="+fee+"]";
    }
 }

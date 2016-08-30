@@ -21,6 +21,6 @@ public class Staff extends Person
    this.pay=pay;
    }  
    public String toString(){
-      return "Student[name="+getName()+", address="+getAddress()+"],school="+school+",pay="+pay+"]";
+      return "Staff[Person[name="+getName()+", address="+getAddress()+"],school="+school+",pay="+pay+"]";
    }
 }
